@@ -13,6 +13,10 @@ public class Util {
 
     public static String SERVER = "http://guolin.tech/api/china";
 
+    public static String weatherUrl = "http://guolin.tech/api/weather?cityid=";
+
+    public static String KEY = "&key=ce8de1c8783540c68cb1eee4435fc7b1";
+
     public static void v(String tag, String msg) {
         if (level <= VERBOSE) {
             Log.v(tag, msg);
